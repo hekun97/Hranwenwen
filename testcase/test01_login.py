@@ -27,9 +27,8 @@ class TestLogin:
         # 发送请求附带数据
         json_data = {"uname": uname, "upwd": upwd}
         response = self.login_api.login(json_data)
-        print(response.json())
         # 打印获取到的token数据
-        # print(response.json().get("content").get("token"))
+        print(response.json().get("content").get("token"))
         # 断言状态码
         assert 200 == response.status_code
         # 断言业务状态

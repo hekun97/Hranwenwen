@@ -16,5 +16,6 @@ class LoginAPI:
 
     # login接口
     def login(self, json_data):
-        python_obj = (str(json_data).replace("'", "\""))
-        return requests.post(url=self.url_login, json=python_obj, verify=False)
+        json_data = (str(json_data).replace("'", "\""))
+        py = json.loads(json_data)
+        return requests.post(url=self.url_login, data=py, verify=False)
