@@ -9,10 +9,9 @@ import json
 
 
 class LoginAPI:
-    # 在初始化方法中，定义需要使用到的接口url
     def __init__(self):
         config = get_prd_config()
-        # 获取'base'部分的数据
+        # 获取生产环境'base'中的url
         base_url = config.get('base', 'base_url')
         # 登录接口
         self.url_login = base_url+"/api_user/loginapi"
