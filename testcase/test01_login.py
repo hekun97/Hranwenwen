@@ -2,6 +2,7 @@
 登录接口的测试用例
 """
 import allure
+import utils.token as glv
 
 from api.login.login import LoginAPI
 from assert_hww import assert_login
@@ -22,13 +23,15 @@ class TestLogin:
     def test_001_login_success(self):
         # 获取json文件中的第i+1条测试用例data数据
         json_data = get_json_data(0)
-        self.logger.info("case001的输入的登录信息为："+str(json_data).replace("'", "\""))
+        self.logger.info("case001的输入的登录信息为："+json_data)
         # 调用登录接口完成登录，json_data为传入的请求体内容
         response = self.login_api.login(json_data)
-        # 打印获取到的token数据，如果后续其它请求需要保持登录，那么需要带入token信息
-        self.logger.info("case001获取到的token信息为："+response.json().get("content").get("token"))
+        # token数据，如果后续其它请求需要保持登录，那么需要带入token信息
+        token_l = response.json().get("content").get("token")
+        self.logger.info("case001获取到的token信息为："+token_l)
         # 断言
         assert_login.success_login(response)
+        return token_l
 
     # 定义日志级别为CRITICAL
     @allure.severity(allure.severity_level.CRITICAL)
