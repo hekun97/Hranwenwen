@@ -5,7 +5,7 @@ import allure
 
 from api.login.login_out import Login_out_API
 from config.logging_config import init_logging
-from testcase.test01_login import TestLogin
+from utils.token import get_token
 
 
 class TestLogin_out:
@@ -20,8 +20,8 @@ class TestLogin_out:
     # 正向功能，仅必填参数
     def test_001_login_out_success(self):
         # 获取token数据
-        token_data = TestLogin.test_001_login_success.token_l
-        login_out_data = {"token": "9a590148b58759140605e0030f83adc5"}
+        token = get_token()
+        login_out_data = {"token": token}
         # self.logger.info("case001的输入的退出token信息为："+login_out_data)
         # 调用退出登录接口完成退出，token_data为传入的请求体内容
         response = self.login_out_api.login_out(login_out_data)
