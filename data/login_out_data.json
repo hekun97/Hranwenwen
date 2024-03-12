@@ -1,0 +1,72 @@
+[
+  {
+    "caseid": 1,
+    "desc": "正向功能，仅必填参数",
+    "data": {
+      "token": ""
+    }
+  },
+  {
+    "caseid": 2,
+    "desc": "无参",
+    "data": {
+    }
+  },
+  {
+    "caseid": 3,
+    "desc": "多参",
+    "data": {
+      "token": "",
+      "ttt": "hahah"
+    }
+  },
+  {
+    "caseid": 4,
+    "desc": "错误参数,token>>>ttt",
+    "data": {
+      "ttt": ""
+    }
+  },
+  {
+    "caseid": 5,
+    "desc": "数据异常-token为空",
+    "data": {
+      "token": ""
+    }
+  },
+  {
+    "caseid": 6,
+    "desc": "数据异常-token过长",
+    "data": {
+      "token": "a13fdc49d60ec81535c7b472b899b952a13fdc49d60ec81535c7b472b899b952a13fdc49d60ec81535c7b472b899b952a13fdc49d60ec81535c7b472b899b952"
+    }
+  },
+  {
+    "caseid": 7,
+    "desc": "错误数据-token含中文",
+    "data": {
+      "token": "中"
+    }
+  },
+  {
+    "caseid": 8,
+    "desc": "错误数据-token含空格",
+    "data": {
+      "token": " "
+    }
+  },
+  {
+    "caseid": 9,
+    "desc": "错误数据-token含小数点",
+    "data": {
+      "token": "."
+    }
+  },
+   {
+    "caseid": 10,
+    "desc": "错误数据-token长度不足",
+    "data": {
+      "token": ""
+    }
+  }
+]

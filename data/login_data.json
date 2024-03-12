@@ -1,6 +1,6 @@
 [
   {
-    "caseid": "1",
+    "caseid": 1,
     "desc": "正向功能，仅必填参数",
     "data": {
       "uname": "test1234",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "caseid": "2",
+    "caseid": 2,
     "desc": "全部参数",
     "data": {
       "uname": "test1234",
@@ -17,21 +17,21 @@
     }
   },
   {
-    "caseid": "3",
+    "caseid": 3,
     "desc": "无参",
     "data": {
 
     }
   },
    {
-    "caseid": "4",
+    "caseid": 4,
     "desc": "少参-用户名",
     "data": {
       "upwd": "test1234"
     }
   },
   {
-    "caseid": "5",
+    "caseid": 5,
     "desc": "多参-ttt",
     "data": {
       "uname": "test1234",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "caseid": "6",
+    "caseid": 6,
     "desc": "错误参数（uname>>ttt）",
     "data": {
       "ttt": "test1234",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "caseid": "7",
+    "caseid": 7,
     "desc": "数据异常-密码为空",
     "data": {
       "uname": "test1234",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "caseid": "8",
+    "caseid": 8,
     "desc": "数据异常-用户名过长",
     "data": {
       "uname": "test1234test1234test1234test1234test1234test1234test1234",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "caseid": "9",
+    "caseid": 9,
     "desc": "错误数据-密码含中文",
     "data": {
       "uname": "test1234",

@@ -1,1 +1,0 @@
-INFO     root:test02_login_out.py:25 case001的输入的退出token信息为：

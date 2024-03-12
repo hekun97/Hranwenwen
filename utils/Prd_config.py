@@ -1,9 +1,9 @@
 from configparser import ConfigParser
 
-from utils.base_dir import get_base_dir
+from base_dir_util import get_base_dir
 
 
-# 读取生产环境配置文件信息
+# 读取生产环境配置文件信息的工具类
 def get_prd_config():
     # 获取项目目录绝对路径
     BaseDir = get_base_dir()

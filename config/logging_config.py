@@ -1,6 +1,7 @@
 import logging, logging.handlers
+from datetime import datetime
 
-from utils.base_dir import get_base_dir
+from base_dir_util import get_base_dir
 
 
 def init_logging():
@@ -9,7 +10,7 @@ def init_logging():
     # 设置日志的级别
     logger.setLevel(logging.DEBUG)
     # 创建处理器
-    fh = logging.handlers.TimedRotatingFileHandler(get_base_dir()+"/log/log.log", when="midnight", interval=1, backupCount=7)
+    fh = logging.handlers.TimedRotatingFileHandler(get_base_dir()+"/log/log-{}.log".format(datetime.now().strftime('%Y-%m-%d_%H-%M-%S')), when="midnight", interval=1, backupCount=7)
     sh = logging.StreamHandler()
     fh.setLevel(logging.INFO)
     sh.setLevel(logging.INFO)
