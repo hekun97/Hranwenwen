@@ -2,7 +2,6 @@
 登录接口的测试用例
 """
 import allure
-import utils.token as glv
 
 from api.login.login import LoginAPI
 from assert_hww import assert_login

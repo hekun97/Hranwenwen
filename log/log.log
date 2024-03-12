@@ -36,3 +36,7 @@
 2024-03-12 10:57:29,219 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：9a590148b58759140605e0030f83adc5
 2024-03-12 11:20:00,100 INFO [root] [test01_login.py(test_001_login_success:26)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
 2024-03-12 11:20:00,405 INFO [root] [test01_login.py(test_001_login_success:33)] - case001获取到的token信息为：2f8a9358da2b040fd39606c2f6df8aad
+2024-03-12 11:58:55,525 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 11:58:55,525 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 11:58:56,271 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：2e0ce0ed48d82b671ac7c52b8abd940b
+2024-03-12 11:58:56,271 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：2e0ce0ed48d82b671ac7c52b8abd940b
