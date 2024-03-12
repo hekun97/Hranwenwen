@@ -40,3 +40,31 @@
 2024-03-12 11:58:55,525 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
 2024-03-12 11:58:56,271 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：2e0ce0ed48d82b671ac7c52b8abd940b
 2024-03-12 11:58:56,271 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：2e0ce0ed48d82b671ac7c52b8abd940b
+2024-03-12 12:08:18,849 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:08:18,849 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:08:19,618 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：6b121260e6e62b214842b0a19fe297df
+2024-03-12 12:08:19,618 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：6b121260e6e62b214842b0a19fe297df
+2024-03-12 12:08:38,294 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:08:38,294 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:08:38,754 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：db961f81fe88d403d79fea660aa99f5e
+2024-03-12 12:08:38,754 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：db961f81fe88d403d79fea660aa99f5e
+2024-03-12 12:14:37,279 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:14:37,279 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:14:37,653 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：3685070b4a6d8bf1dc68d3e3454f9b32
+2024-03-12 12:14:37,653 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：3685070b4a6d8bf1dc68d3e3454f9b32
+2024-03-12 12:14:37,654 INFO [root] [test02_login_out.py(test_001_login_out_success:26)] - case001的输入的退出token信息为：3685070b4a6d8bf1dc68d3e3454f9b32
+2024-03-12 12:14:37,654 INFO [root] [test02_login_out.py(test_001_login_out_success:26)] - case001的输入的退出token信息为：3685070b4a6d8bf1dc68d3e3454f9b32
+2024-03-12 12:15:49,818 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:15:50,213 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：084bb5ca2e36e07868ad948958753422
+2024-03-12 12:16:44,272 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:16:44,272 INFO [root] [test01_login.py(test_001_login_success:25)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:16:45,024 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：c1c579c784fab39564898b1bf1bb852a
+2024-03-12 12:16:45,024 INFO [root] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：c1c579c784fab39564898b1bf1bb852a
+2024-03-12 12:16:45,025 INFO [root] [test02_login_out.py(test_001_login_out_success:26)] - case001的输入的退出token信息为：c1c579c784fab39564898b1bf1bb852a
+2024-03-12 12:16:45,025 INFO [root] [test02_login_out.py(test_001_login_out_success:26)] - case001的输入的退出token信息为：c1c579c784fab39564898b1bf1bb852a
+2024-03-12 12:21:02,601 INFO [root] [token.py(get_token:15)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:21:02,601 INFO [root] [token.py(get_token:15)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+2024-03-12 12:21:02,969 INFO [root] [token.py(get_token:20)] - case001获取到的token信息为：21d862408ca89bd58269cc2647b6af43
+2024-03-12 12:21:02,969 INFO [root] [token.py(get_token:20)] - case001获取到的token信息为：21d862408ca89bd58269cc2647b6af43
+2024-03-12 12:21:02,969 INFO [root] [test02_login_out.py(test_001_login_out_success:26)] - case001的输入的退出token信息为：21d862408ca89bd58269cc2647b6af43
+2024-03-12 12:21:02,969 INFO [root] [test02_login_out.py(test_001_login_out_success:26)] - case001的输入的退出token信息为：21d862408ca89bd58269cc2647b6af43

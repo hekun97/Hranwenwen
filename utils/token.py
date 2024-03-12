@@ -1,13 +1,21 @@
-from testcase.test01_login import TestLogin
+from api.login.login import LoginAPI
+from config.logging_config import init_logging
+from utils.bulid_json_data import get_json_data
 
-# 实例化登录测试用例对象
-test_login = TestLogin()
+login_api = LoginAPI()
+logger = init_logging()
 
 
 # 获取token
 def get_token():
     token_l = ""
     if not token_l:
-        test_login.setup_method()
-        token_l = test_login.test_001_login_success()
+        # 获取json文件中的第i+1条测试用例data数据
+        json_data = get_json_data(0)
+        logger.info("case001的输入的登录信息为：" + json_data)
+        # 调用登录接口完成登录，json_data为传入的请求体内容
+        response = login_api.login(json_data)
+        # token数据，如果后续其它请求需要保持登录，那么需要带入token信息
+        token_l = response.json().get("content").get("token")
+        logger.info("case001获取到的token信息为：" + token_l)
     return token_l

@@ -30,7 +30,6 @@ class TestLogin:
         self.logger.info("case001获取到的token信息为："+token_l)
         # 断言
         assert_login.success_login(response)
-        return token_l
 
     # 定义日志级别为CRITICAL
     @allure.severity(allure.severity_level.CRITICAL)
