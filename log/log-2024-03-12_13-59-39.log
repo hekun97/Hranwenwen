@@ -1,1 +1,0 @@
-2024-03-12 13:59:39,710 INFO [root] [test01_login.py(test_001_login_success:26)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}

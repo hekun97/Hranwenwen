@@ -178,8 +178,7 @@ class TestLogin_out:
         # 获取token数据
         token = get_token()
         # 将token数据赋值给login_out_data["token"]，使用textwrap.wrap切割字符串
-        login_out_data["token"] = textwrap.wrap(token, width=28)
-        print(login_out_data["token"])
+        login_out_data["token"] = textwrap.wrap(token, width=28)[0]
         # 调用退出登录接口完成退出，token_data为传入的请求体内容
         response = self.login_out_api.login_out(login_out_data)
         # 断言

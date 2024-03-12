@@ -1,2 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:1055 Starting new HTTPS connection (1): www.huanwenwen.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:549 https://www.huanwenwen.com:443 "POST /api_user/huanwenwenssologinout HTTP/1.1" 200 None

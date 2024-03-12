@@ -1,5 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:1055 Starting new HTTPS connection (1): www.huanwenwen.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:549 https://www.huanwenwen.com:443 "POST /api_user/loginapi HTTP/1.1" 200 None
-INFO     root:test02_login_out.py:38 case001的输入的退出token信息为：8b66a1a73c00d0e9b3beaae87d891aa8
-DEBUG    urllib3.connectionpool:connectionpool.py:1055 Starting new HTTPS connection (1): www.huanwenwen.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:549 https://www.huanwenwen.com:443 "POST /api_user/huanwenwenssologinout HTTP/1.1" 200 None
