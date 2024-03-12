@@ -42,7 +42,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 无参
-    def test_002_login_out_success(self):
+    def test_002_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(2, "login_out_data")
         # 将json转换为python字典
@@ -72,7 +72,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误参数,token>>>ttt
-    def test_004_login_out_success(self):
+    def test_004_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(4, "login_out_data")
         # 将json转换为python字典
@@ -89,7 +89,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 数据异常-token为空
-    def test_005_login_out_success(self):
+    def test_005_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(4, "login_out_data")
         # 将json转换为python字典
@@ -102,7 +102,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 数据异常-token过长
-    def test_006_login_out_success(self):
+    def test_006_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(6, "login_out_data")
         # 将json转换为python字典
@@ -119,7 +119,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token含中文
-    def test_007_login_out_success(self):
+    def test_007_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(7, "login_out_data")
         # 将json转换为python字典
@@ -136,7 +136,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token含空格
-    def test_008_login_out_success(self):
+    def test_008_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(8, "login_out_data")
         # 将json转换为python字典
@@ -153,7 +153,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token含小数点
-    def test_009_login_out_success(self):
+    def test_009_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(9, "login_out_data")
         # 将json转换为python字典
@@ -170,7 +170,7 @@ class TestLogin_out:
     # 定义日志级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token长度不足
-    def test_010_login_out_success(self):
+    def test_010_login_out_failed(self):
         # 获取字符串格式的json数据
         json_data = get_json_data(10, "login_out_data")
         # 将json转换为python字典

@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test01_login.py:26 case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1055 Starting new HTTPS connection (1): www.huanwenwen.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:549 https://www.huanwenwen.com:443 "POST /api_user/loginapi HTTP/1.1" 200 None
