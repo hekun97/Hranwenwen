@@ -1,8 +1,9 @@
 from api.login.login import LoginAPI
+from config.logging_config import init_logging
 from utils.bulid_json_data import get_json_data
 
 login_api = LoginAPI()
-
+logger = init_logging()
 
 # 获取token
 def get_token():
@@ -14,4 +15,6 @@ def get_token():
         response = login_api.login(json_data)
         # token数据，如果后续其它请求需要保持登录，那么需要带入token信息
         token_l = response.json().get("content").get("token")
+        # 打印日志信息
+        logger.info("获取的token信息为：" + token_l)
     return token_l

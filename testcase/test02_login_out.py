@@ -20,7 +20,7 @@ class TestLogin_out:
         self.login_out_api = Login_out_API()
         self.logger = init_logging()
 
-    # 定义日志级别为CRITICAL
+    # 定义优先级别为CRITICAL
     @allure.severity(allure.severity_level.CRITICAL)
     # 正向功能，仅必填参数
     def test_001_login_out_success(self):
@@ -39,7 +39,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.success_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 无参
     def test_002_login_out_failed(self):
@@ -52,7 +52,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.failed_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 多参
     def test_003_login_out_success(self):
@@ -69,7 +69,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.success_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误参数,token>>>ttt
     def test_004_login_out_failed(self):
@@ -86,7 +86,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.failed_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 数据异常-token为空
     def test_005_login_out_failed(self):
@@ -99,7 +99,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.failed_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 数据异常-token过长
     def test_006_login_out_failed(self):
@@ -116,7 +116,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.failed_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token含中文
     def test_007_login_out_failed(self):
@@ -133,7 +133,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.failed_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token含空格
     def test_008_login_out_failed(self):
@@ -150,7 +150,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.failed_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token含小数点
     def test_009_login_out_failed(self):
@@ -167,7 +167,7 @@ class TestLogin_out:
         # 断言
         assert_login_out.failed_login_out(response)
 
-    # 定义日志级别为NORMAL
+    # 定义优先级别为NORMAL
     @allure.severity(allure.severity_level.NORMAL)
     # 错误数据-token长度不足
     def test_010_login_out_failed(self):
