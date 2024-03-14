@@ -15,6 +15,14 @@ def get_json_data(i, json_data):
         # 根据caseid获取对应的json格式data数据
         for json_data in json_datas:
             if json_data.get("caseid") == i:
-                return json.dumps(json_data["data"])
-        # 使用dumps返回一个标准的json格式数据，格式为包含JSON数据的字符串
+                # 找到列表类型的data数据，列表内为json格式的信息
+                json_data = json_data["data"]
+                return json_data
     return "没有匹配数据"
+
+# json_data =get_json_data(1 ,"login_out_data")
+#
+# token = json_data[0]["token"]
+# token_l = token + "测试"
+# print(type(token_l))
+# print(token_l)

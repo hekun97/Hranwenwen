@@ -10,7 +10,7 @@ def get_token():
     token_l = ""
     if not token_l:
         # 获取json文件中的第i条测试用例data数据
-        json_data = get_json_data(1, "login_data")
+        json_data = get_json_data(1, "login_data")[0]
         # 调用登录接口完成登录，json_data为传入的请求体内容
         response = login_api.login(json_data)
         # token数据，如果后续其它请求需要保持登录，那么需要带入token信息

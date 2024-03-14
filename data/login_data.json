@@ -2,73 +2,84 @@
   {
     "caseid": 1,
     "desc": "正向功能，仅必填参数",
-    "data": {
+    "data": [{
       "uname": "test1234",
       "upwd": "test1234"
-    }
+    }]
   },
   {
     "caseid": 2,
     "desc": "全部参数",
-    "data": {
-      "uname": "test1234",
-      "upwd": "test1234",
-      "apikey": "5f0ebbcdcdc35a162fe7238b94493c9d"
-    }
+    "data": [
+      {
+        "uname": "test1234",
+        "upwd": "test1234",
+        "apikey": "5f0ebbcdcdc35a162fe7238b94493c9d"
+      }]
   },
   {
     "caseid": 3,
     "desc": "无参",
-    "data": {
+    "data": [{
 
-    }
+    }]
   },
    {
     "caseid": 4,
     "desc": "少参-用户名",
-    "data": {
-      "upwd": "test1234"
-    }
+    "data": [
+      {
+        "upwd": "test1234"
+      }]
   },
   {
     "caseid": 5,
     "desc": "多参-ttt",
-    "data": {
-      "uname": "test1234",
-      "upwd": "test1234",
-      "ttt": "hahaha"
-    }
+    "data": [
+      {
+        "uname": "test1234",
+        "upwd": "test1234",
+        "ttt": "hahaha"
+      }]
   },
   {
     "caseid": 6,
     "desc": "错误参数（uname>>ttt）",
-    "data": {
-      "ttt": "test1234",
-      "upwd": "test1234"
-    }
+    "data": [
+      {
+        "ttt": "test1234",
+        "upwd": "test1234"
+      }]
   },
   {
     "caseid": 7,
     "desc": "数据异常-密码为空",
-    "data": {
-      "uname": "test1234",
-      "upwd": ""
-    }
+    "data": [
+      {
+        "uname": "test1234",
+        "upwd": ""
+      }]
   },
   {
     "caseid": 8,
-    "desc": "数据异常-用户名过长",
-    "data": {
-      "uname": "test1234test1234test1234test1234test1234test1234test1234",
-      "upwd": "test1234"
-    }
+    "desc": "数据异常-用户名、密码过长",
+    "data": [
+      {
+        "uname": "test1234test1234test1234test1234test1234test1234test1234",
+        "upwd": "test1234"
+      },
+    {
+        "uname": "test1234",
+        "upwd": "test1234test1234test1234test1234test1234test1234test1234"
+      }]
   },
   {
     "caseid": 9,
     "desc": "错误数据-密码含中文",
-    "data": {
-      "uname": "test1234",
-      "upwd": "test1234中"
-    }
+    "data": [
+      {
+        "uname": "test1234",
+        "upwd": "test1234中"
+      }]
   }
 ]

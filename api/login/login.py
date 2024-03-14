@@ -17,9 +17,7 @@ class LoginAPI:
         self.url_login = base_url+"/api_user/loginapi"
 
     # 发送登录请求
-    def login(self, json_data):
-        # 将json数据转为python字典
-        login_data = json.loads(json_data)
+    def login(self, login_data):
         # 返回响应数据
         response = requests.post(url=self.url_login, data=login_data, verify=False)
         return response

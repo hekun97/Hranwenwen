@@ -1,0 +1,3 @@
+2024-03-14 22:19:41,118 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：2ee77a17e866d915426c4062d78c2079
+2024-03-14 22:19:41,118 INFO [config.logging_config] [test02_login_out.py(test_001_login_out_success:32)] - json_data信息
+2024-03-14 22:19:41,119 INFO [config.logging_config] [test02_login_out.py(test_001_login_out_success:37)] - case001的输入的退出token信息为：2ee77a17e866d915426c4062d78c2079

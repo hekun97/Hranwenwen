@@ -1,0 +1,2 @@
+2024-03-14 22:22:40,746 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：72e070d95e4cae79ca4f702714b5be42
+2024-03-14 22:22:40,746 INFO [config.logging_config] [test02_login_out.py(test_001_login_out_success:34)] - json_data信息{'token': '72e070d95e4cae79ca4f702714b5be42'}
