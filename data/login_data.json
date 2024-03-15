@@ -2,10 +2,12 @@
   {
     "caseid": 1,
     "desc": "正向功能，仅必填参数",
-    "data": [{
-      "uname": "test1234",
-      "upwd": "test1234"
-    }]
+    "data": [
+      {
+        "uname": "test1234",
+        "upwd": "test1234"
+      }
+    ]
   },
   {
     "caseid": 2,
@@ -15,22 +17,25 @@
         "uname": "test1234",
         "upwd": "test1234",
         "apikey": "5f0ebbcdcdc35a162fe7238b94493c9d"
-      }]
+      }
+    ]
   },
   {
     "caseid": 3,
     "desc": "无参",
-    "data": [{
-
-    }]
+    "data": [
+      {
+      }
+    ]
   },
-   {
+  {
     "caseid": 4,
     "desc": "少参-用户名",
     "data": [
       {
         "upwd": "test1234"
-      }]
+      }
+    ]
   },
   {
     "caseid": 5,
@@ -40,7 +45,8 @@
         "uname": "test1234",
         "upwd": "test1234",
         "ttt": "hahaha"
-      }]
+      }
+    ]
   },
   {
     "caseid": 6,
@@ -49,7 +55,8 @@
       {
         "ttt": "test1234",
         "upwd": "test1234"
-      }]
+      }
+    ]
   },
   {
     "caseid": 7,
@@ -58,7 +65,8 @@
       {
         "uname": "test1234",
         "upwd": ""
-      }]
+      }
+    ]
   },
   {
     "caseid": 8,
@@ -68,10 +76,11 @@
         "uname": "test1234test1234test1234test1234test1234test1234test1234",
         "upwd": "test1234"
       },
-    {
+      {
         "uname": "test1234",
         "upwd": "test1234test1234test1234test1234test1234test1234test1234"
-      }]
+      }
+    ]
   },
   {
     "caseid": 9,
@@ -80,6 +89,7 @@
       {
         "uname": "test1234",
         "upwd": "test1234中"
-      }]
+      }
+    ]
   }
 ]
