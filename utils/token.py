@@ -1,8 +1,8 @@
-from api.login.login_api import LoginAPI
+from api.login_and_out_api import LoginAndOutAPI
 from config.logging_config import init_logging
 from utils.bulid_json_data import get_json_data
 
-login_api = LoginAPI()
+login_api = LoginAndOutAPI()
 logger = init_logging()
 
 # 获取token

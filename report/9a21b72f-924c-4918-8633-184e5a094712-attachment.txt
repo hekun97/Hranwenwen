@@ -1,0 +1,1 @@
+[32mINFO    [0m config.logging_config:token.py:19 获取的token信息为：11d7ac5b4f242e4bfaabc632009090c1

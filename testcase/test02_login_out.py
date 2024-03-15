@@ -6,7 +6,7 @@ import textwrap
 import allure
 import pytest
 
-from api.login.login_out_api import Login_out_API
+from api.login_and_out_api import LoginAndOutAPI
 from config.logging_config import init_logging
 from utils.bulid_json_data import get_json_data
 from utils.token import get_token
@@ -17,7 +17,7 @@ class TestLogin_out:
     # 方法级别的setup方法
     def setup_method(self):
         # 初始化登录接口类
-        self.login_out_api = Login_out_API()
+        self.login_out_api = LoginAndOutAPI()
         self.logger = init_logging()
 
     # 定义优先级别为CRITICAL

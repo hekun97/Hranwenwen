@@ -1,0 +1,2 @@
+[32mINFO    [0m config.logging_config:token.py:19 获取的token信息为：a0c69779f22b94ce061c6055d8087437
+[32mINFO    [0m config.logging_config:test02_login_out.py:34 case001的输入的退出token信息为：{'token': 'a0c69779f22b94ce061c6055d8087437'}

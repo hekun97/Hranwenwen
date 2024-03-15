@@ -4,7 +4,7 @@
 import allure
 import pytest
 
-from api.login.login_api import LoginAPI
+from api.login_and_out_api import LoginAndOutAPI
 from assert_hww import assert_login
 from config.logging_config import init_logging
 from utils.bulid_json_data import get_json_data
@@ -14,7 +14,7 @@ class TestLogin:
     # 方法级别的setup方法
     def setup_method(self):
         # 初始化登录接口类
-        self.login_api = LoginAPI()
+        self.login_api = LoginAndOutAPI()
         self.logger = init_logging()
 
     # 定义优先级别为CRITICAL

@@ -1,0 +1,11 @@
+2024-03-15 11:45:34,726 INFO [config.logging_config] [test01_login.py(test_001_login_success:26)] - case001的输入的登录信息为：{'uname': 'test1234', 'upwd': 'test1234'}
+2024-03-15 11:45:35,216 INFO [config.logging_config] [test01_login.py(test_001_login_success:30)] - case001获取到的token信息为：c5ea250d07e0e56ed058f8da2e04808c
+2024-03-15 11:45:38,317 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：a0c69779f22b94ce061c6055d8087437
+2024-03-15 11:45:38,318 INFO [config.logging_config] [test02_login_out.py(test_001_login_out_success:34)] - case001的输入的退出token信息为：{'token': 'a0c69779f22b94ce061c6055d8087437'}
+2024-03-15 11:45:39,388 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：a5c1c29b7a3160276d80c39383583572
+2024-03-15 11:45:40,122 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：11d7ac5b4f242e4bfaabc632009090c1
+2024-03-15 11:45:40,956 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：11d7ac5b4f242e4bfaabc632009090c1
+2024-03-15 11:45:41,791 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：3c99d17f18e934f4b11ac773f0d381d6
+2024-03-15 11:45:42,379 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：9365c120d2802914b22495a5c4cafff3
+2024-03-15 11:45:43,071 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：cbbd78f06558414fd3573a36f9f1771f
+2024-03-15 11:45:44,281 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：cbbd78f06558414fd3573a36f9f1771f

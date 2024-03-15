@@ -1,0 +1,2 @@
+[32mINFO    [0m config.logging_config:test01_login.py:26 case001的输入的登录信息为：{'uname': 'test1234', 'upwd': 'test1234'}
+[32mINFO    [0m config.logging_config:test01_login.py:30 case001获取到的token信息为：c5ea250d07e0e56ed058f8da2e04808c
