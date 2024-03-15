@@ -4,7 +4,7 @@
 import allure
 import pytest
 
-from api.login.login import LoginAPI
+from api.login.login_api import LoginAPI
 from assert_hww import assert_login
 from config.logging_config import init_logging
 from utils.bulid_json_data import get_json_data

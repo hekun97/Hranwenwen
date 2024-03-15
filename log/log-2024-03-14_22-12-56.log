@@ -1,2 +1,0 @@
-2024-03-14 22:12:57,488 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：9d45025dfa8ac9c97e94850e0c0ea8f7
-2024-03-14 22:12:57,488 INFO [config.logging_config] [test02_login_out.py(test_001_login_out_success:32)] - token信息9d45025dfa8ac9c97e94850e0c0ea8f7

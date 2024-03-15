@@ -1,0 +1,2 @@
+INFO     config.logging_config:token.py:19 获取的token信息为：0f6d16650e463cbe394e809aab4ffd83
+INFO     config.logging_config:test02_login_out.py:34 case001的输入的退出token信息为：{'token': '0f6d16650e463cbe394e809aab4ffd83'}

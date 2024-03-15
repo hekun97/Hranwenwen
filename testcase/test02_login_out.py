@@ -6,7 +6,7 @@ import textwrap
 import allure
 import pytest
 
-from api.login.login_out import Login_out_API
+from api.login.login_out_api import Login_out_API
 from config.logging_config import init_logging
 from utils.bulid_json_data import get_json_data
 from utils.token import get_token

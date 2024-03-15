@@ -1,2 +1,0 @@
-2024-03-14 11:56:22,018 INFO [config.logging_config] [test01_login.py(test_001_login_success:28)] - case001的输入的登录信息为：{'uname': 'test1234', 'upwd': 'test1234'}
-2024-03-14 11:56:23,025 INFO [config.logging_config] [test01_login.py(test_001_login_success:32)] - case001获取到的token信息为：e7c5f0dddbbca4aa835c5d4253e2e924

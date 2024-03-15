@@ -1,1 +1,0 @@
-2024-03-14 11:09:35,401 INFO [config.logging_config] [test01_login.py(test_001_login_success:27)] - case001的输入的登录信息为：{"uname": "test1234", "upwd": "test1234"}

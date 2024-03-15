@@ -1,4 +1,4 @@
-from api.login.login import LoginAPI
+from api.login.login_api import LoginAPI
 from config.logging_config import init_logging
 from utils.bulid_json_data import get_json_data
 

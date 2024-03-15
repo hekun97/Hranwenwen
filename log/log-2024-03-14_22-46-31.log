@@ -1,9 +1,0 @@
-2024-03-14 22:46:31,745 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：906d1c3eaccb002f773ea582971b616a
-2024-03-14 22:46:31,745 INFO [config.logging_config] [test02_login_out.py(test_001_login_out_success:34)] - case001的输入的退出token信息为：{'token': '906d1c3eaccb002f773ea582971b616a'}
-2024-03-14 22:46:32,655 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：1f878c2f67d5cd045ed804e5772bfa96
-2024-03-14 22:46:33,196 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：eb6764897377a3c9cc1f1277af027414
-2024-03-14 22:46:34,023 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：1054c5bc92178c3e12cc474a00542f05
-2024-03-14 22:46:35,325 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：3d840eed15c5a627038087096ab59830
-2024-03-14 22:46:36,112 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：9dcf4cd507358b6a675ad7912c306b41
-2024-03-14 22:46:36,810 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：9dcf4cd507358b6a675ad7912c306b41
-2024-03-14 22:46:37,397 INFO [config.logging_config] [token.py(get_token:19)] - 获取的token信息为：0b0712e0891ce3289827ec68a9ebc8a2
