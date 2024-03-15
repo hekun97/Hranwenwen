@@ -2,7 +2,7 @@
 退出登录接口
 """
 
-from utils.Prd_config import get_prd_config
+from utils.get_configs import get_env_config
 from utils.base_request import BaseRequest
 
 
@@ -11,7 +11,7 @@ class Login_out_API:
         # 实例化发请求的BaseRequest对象
         self.base_request = BaseRequest()
         # 实例化生产环境配置
-        config = get_prd_config()
+        config = get_env_config()
         # 获取生产环境'base'中的url
         base_url = config.get('base', 'base_url')
         # 登录接口
